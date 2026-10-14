@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fffdf7">
+<title>Nikah Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#b88632;--accent:#d4af62;--ivory:#fffdf7;--cream:#f7f0e2;--brown:#68451c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--brown);font-family:Inter,Arial,sans-serif;overflow-x:hidden}button,input,textarea,select{font:inherit}button{cursor:pointer}.bismillah{font-family:Amiri,serif;font-size:clamp(1.65rem,4vw,2.8rem);color:var(--gold);direction:rtl;text-align:center;line-height:1.7}.translit{font-family:"Cormorant Garamond",serif;font-style:italic;letter-spacing:.08em;color:#94713a}.eyebrow{text-transform:uppercase;letter-spacing:.24em;font-size:.72rem;color:#a17b39}.serif{font-family:"Cormorant Garamond",Georgia,serif}.opening{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 16px 36px;text-align:center;position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#fff 0%,var(--ivory) 60%,#f5ead5 100%)}.opening:before,.opening:after{content:"";position:absolute;inset:12px;border:1px solid #d7b66e;pointer-events:none;z-index:-1}.opening:after{inset:19px;border-color:#ead9b0}.opening-top{z-index:2;margin-bottom:0}.art-wrap{width:min(88vw,610px);height:min(66vh,700px);min-height:340px;display:flex;align-items:center;justify-content:center;position:relative;margin:-4px auto 4px}.art{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 12px 24px #8e641c1c);animation:arrive 1.7s ease both;mix-blend-mode:multiply}.open-btn{position:relative;z-index:3;border:1px solid #f7e7b4;background:linear-gradient(135deg,#9e6d20,#e5c875 52%,#a8792c);color:#fffdf6;border-radius:999px;padding:17px 29px;letter-spacing:.13em;font-size:.75rem;font-weight:600;box-shadow:0 8px 28px #b8863240,inset 0 1px 0 #fff9;transition:transform .25s,box-shadow .25s}.open-btn:hover{transform:translateY(-2px);box-shadow:0 12px 35px #b8863260}.open-btn:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #8c651d;outline-offset:3px}.hint{font-size:.75rem;color:#9c835b;margin-top:14px}.ornament{color:var(--accent);letter-spacing:.45em;margin:16px 0}.main{display:none;animation:fadeUp .9s ease both}.main.show{display:block}.hero{text-align:center;padding:74px 20px 58px;position:relative;background:linear-gradient(180deg,#fffdf7,#f8f0df)}.hero-art{width:min(72vw,410px);max-height:440px;object-fit:contain;display:block;margin:10px auto 22px;mix-blend-mode:multiply}.names{font-size:clamp(3rem,8vw,6.2rem);line-height:.85;font-weight:500;margin:20px 0;color:#92661e}.amp{font-size:2rem;color:#c5a055;margin:12px}.copy{max-width:650px;margin:18px auto;line-height:1.9;color:#816a48}.section{padding:70px 20px;text-align:center}.section:nth-child(even){background:#f8f0df}.section h2{font-size:clamp(2.3rem,5vw,3.6rem);font-weight:500;color:#966b27;margin:12px 0 24px}.event-card{max-width:700px;margin:auto;padding:34px 25px;border:1px solid #dfc78d;background:#fffdf8;box-shadow:0 16px 45px #8c65120b;position:relative}.event-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:26px 0}.detail-label{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:#a68a54}.detail-value{font-family:"Cormorant Garamond",serif;font-size:1.5rem;margin-top:8px}.countdown{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:26px auto}.timebox{min-width:74px;padding:13px 10px;border:1px solid #e0c98d;background:#fffaf0}.timebox strong{display:block;font:600 1.9rem "Cormorant Garamond",serif;color:#a4772d}.timebox span{font-size:.62rem;letter-spacing:.12em;text-transform:uppercase}.map-link,.submit{display:inline-block;border:1px solid var(--gold);padding:12px 19px;text-decoration:none;color:#89611f;background:transparent;letter-spacing:.08em;font-size:.76rem}.map-link:hover,.submit:hover{background:#f8edcf}.rsvp-form{max-width:520px;margin:20px auto 0;text-align:left;display:grid;gap:14px}.rsvp-form label{font-size:.8rem;color:#806640}.rsvp-form input,.rsvp-form textarea,.rsvp-form select{width:100%;margin-top:6px;padding:12px;border:1px solid #dfd0aa;background:#fffdf8;color:#68451c;border-radius:2px}.rsvp-form textarea{min-height:90px;resize:vertical}.rsvp-form .submit{width:100%;cursor:pointer}.status{min-height:24px;text-align:center;font-size:.9rem}.footer{text-align:center;padding:35px 20px;color:#a38a5c;font-size:.75rem;letter-spacing:.08em}.particles{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:1}.particle{position:absolute;width:4px;height:4px;border-radius:50%;background:#c6a04e;opacity:.5;animation:float 8s linear infinite}.music-toggle{position:fixed;right:16px;bottom:16px;z-index:5;border:1px solid #d8bd7b;background:#fffaf0;color:#8c641e;border-radius:50%;width:44px;height:44px;box-shadow:0 5px 18px #6e4d1720}.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#68451c;color:white;padding:12px 18px;z-index:10;display:none;max-width:90vw}.toast.show{display:block}@keyframes arrive{from{opacity:0;transform:translateY(18px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}@keyframes float{from{transform:translateY(110vh) scale(.4)}to{transform:translateY(-15vh) scale(1.1)}}@media(max-width:560px){.opening{padding:20px 12px 28px}.art-wrap{width:94vw;height:55vh;min-height:300px}.open-btn{padding:15px 19px;font-size:.67rem}.event-grid{grid-template-columns:1fr}.hero{padding-top:50px}.section{padding:54px 17px}.opening:before{inset:8px}.opening:after{inset:14px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<section class="opening" id="opening">
+  <div class="particles" id="particles" aria-hidden="true"></div>
+  <div class="opening-top">
+    <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+    <div class="translit">Bismillahir Rahmanir Raheem</div>
+    <div class="ornament">✦ ❧ ✦</div>
+  </div>
+  <div class="art-wrap"><img class="art" id="openingArt" src="/assets/nikah-artwork.jpg" alt="Golden Islamic arch framing a bride and groom during their Nikah"></div>
+  <button class="open-btn" id="openInvite">✦ TAP TO OPEN INVITATION ✦</button>
+  <div class="hint">A blessed beginning, by the grace of Allah</div>
+</section>
+<main class="main" id="mainInvitation">
+  <header class="hero">
+    <div class="bismillah" id="mainBismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+    <p class="translit">Assalamu Alaikum Wa Rahmatullahi Wa Barakatuh</p>
+    <img class="hero-art" id="heroArt" src="/assets/nikah-artwork.jpg" alt="Golden Nikah arch artwork">
+    <p class="eyebrow" id="guestGreeting">Together with our families</p>
+    <h1 class="names serif"><span id="brideName">Bride Name</span><div class="amp">&amp;</div><span id="groomName">Groom Name</span></h1>
+    <p class="copy" id="introCopy">With the blessings of Allah Almighty and the prayers of our families, we cordially invite you to celebrate our blessed Nikah.</p>
+    <p class="copy" id="parentsCopy"></p>
+    <div class="ornament">❧ ✦ ❧</div>
+  </header>
+  <section class="section" id="details">
+    <div class="eyebrow">A day to remember</div><h2 class="serif">The Celebration</h2>
+    <div class="event-card">
+      <div class="detail-label">Nikah & Reception</div><div class="detail-value" id="eventName">Nikah Ceremony &amp; Reception</div>
+      <div class="event-grid">
+        <div><div class="detail-label">Date</div><div class="detail-value" id="eventDate">To be announced</div></div>
+        <div><div class="detail-label">Time</div><div class="detail-value" id="eventTime">12:00 PM</div></div>
+        <div><div class="detail-label">Venue</div><div class="detail-value" id="eventVenue">Your Wedding Venue</div></div>
+        <div><div class="detail-label">Address</div><div class="detail-value" id="eventAddress">Full venue address</div></div>
+      </div>
+      <div class="eyebrow" id="countdownLabel">Counting down to our special day</div><div class="countdown" id="countdown"></div>
+      <a class="map-link" id="mapLink" href="https://maps.google.com/" target="_blank" rel="noopener">GET DIRECTIONS ↗</a>
+    </div>
+  </section>
+  <section class="section" id="rsvp">
+    <div class="eyebrow">Your presence is a blessing</div><h2 class="serif">Kindly RSVP</h2>
+    <p class="copy">Please let us know if you will be joining us for this blessed occasion.</p>
+    <form class="rsvp-form" id="rsvpForm">
+      <label>Your full name<input name="guestName" id="rsvpName" autocomplete="name" required maxlength="120" placeholder="Enter your name"></label>
+      <label>Will you attend?<select name="attendance" required><option value="">Choose your response</option><option value="yes">Yes, with pleasure</option><option value="no">Regretfully, unable to attend</option><option value="maybe">Maybe</option></select></label>
+      <label>Number of guests<input name="partySize" type="number" min="1" max="20" value="1" required></label>
+      <label>A message for the couple (optional)<textarea name="message" maxlength="1000" placeholder="Share your wishes..."></textarea></label>
+      <button class="submit" type="submit">SEND RSVP</button><div class="status" id="rsvpStatus" aria-live="polite"></div>
+    </form>
+  </section>
+  <footer class="footer"><div class="bismillah" style="font-size:1.5rem">الحمد لله</div>May Allah bless this union with love, mercy, and barakah.</footer>
+</main>
+<audio id="weddingMusic" loop preload="none"></audio><button class="music-toggle" id="musicToggle" aria-label="Toggle wedding music" title="Toggle music" hidden>♫</button>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const $=id=>document.getElementById(id);
+let settings={}, guestSlug="", musicStarted=false;
+const params=new URLSearchParams(location.search);
+function getGuestSlug(){const match=location.pathname.match(/^\/invite\/([^/]+)/);return match?decodeURIComponent(match[1]):(params.get("guest")||"");}
+guestSlug=getGuestSlug();
+function formatDate(date){if(!date)return "To be announced";const d=new Date(date+"T12:00:00");return isNaN(d)?date:d.toLocaleDateString(undefined,{weekday:"long",year:"numeric",month:"long",day:"numeric"});}
+function toast(message){$("toast").textContent=message;$("toast").classList.add("show");setTimeout(()=>$("toast").classList.remove("show"),3500);}
+function makeParticles(){const box=$("particles");if(!settings.showParticles)return;for(let i=0;i<22;i++){const p=document.createElement("i");p.className="particle";p.style.left=(Math.random()*100)+"%";p.style.animationDelay=(Math.random()*8)+"s";p.style.animationDuration=(7+Math.random()*8)+"s";p.style.opacity=(.15+Math.random()*.4).toString();box.appendChild(p);}}
+function applySettings(s){
+ settings=s;const root=document.documentElement;root.style.setProperty("--gold",s.goldColor||"#b88632");root.style.setProperty("--accent",s.accentColor||"#d4af62");root.style.setProperty("--ivory",s.backgroundColor||"#fffdf7");root.style.setProperty("--brown",s.textColor||"#68451c");document.body.style.background=s.backgroundColor||"#fffdf7";
+ $("openingArt").src=s.artworkUrl||"/assets/nikah-artwork.jpg";$("heroArt").src=s.artworkUrl||"/assets/nikah-artwork.jpg";
+ $("mainBismillah").hidden=!s.bismillah;$("brideName").textContent=s.brideName||"Bride Name";$("groomName").textContent=s.groomName||"Groom Name";
+ $("guestGreeting").textContent=guestSlug?("A warm welcome, "+guestSlug.replace(/[-_]/g," ")+""): (s.guestGreeting||"Together with our families");
+ $("introCopy").textContent=s.intro||"";$("parentsCopy").textContent=[s.brideParents,s.groomParents].filter(Boolean).join(" • ");
+ $("eventName").textContent=s.reception||"Nikah Ceremony & Reception";$("eventDate").textContent=formatDate(s.date);$("eventTime").textContent=s.time||"To be announced";$("eventVenue").textContent=s.venue||"Venue to be announced";$("eventAddress").textContent=s.address||"";
+ $("mapLink").href=/^https?:\/\//i.test(s.mapsUrl||"")?s.mapsUrl:"https://maps.google.com/";
+ $("countdownLabel").hidden=!s.countdown;$("countdown").hidden=!s.countdown;
+ if(s.musicEnabled&&s.musicUrl){$("weddingMusic").src=s.musicUrl;$("weddingMusic").volume=Math.max(0,Math.min(1,Number(s.musicVolume)||.35));$("musicToggle").hidden=false;}else{$("musicToggle").hidden=true;$("weddingMusic").pause();}
+ makeParticles();updateCountdown();
+}
+function updateCountdown(){if(!settings.countdown)return;const target=new Date((settings.date||"2027-01-01")+"T"+(settings.time||"12:00")+":00");const diff=target.getTime()-Date.now();if(!Number.isFinite(diff)||diff<=0){$("countdown").innerHTML='<div class="timebox"><strong>♥</strong><span>Today is the day</span></div>';return;}const units=[["Days",86400000],["Hours",3600000],["Minutes",60000],["Seconds",1000]]; $("countdown").innerHTML=units.map(([label,ms])=>'<div class="timebox"><strong>'+Math.floor(diff/ms/(label==="Days"?1:1))%(label==="Days"?Infinity:label==="Hours"?24:label==="Minutes"?60:60)+'</strong><span>'+label+'</span></div>').join("");}
+async function loadSettings(){try{const r=await fetch("/api/settings"+(guestSlug?"?guest="+encodeURIComponent(guestSlug):""),{cache:"no-store"});if(!r.ok)throw new Error("Invitation settings are not published yet.");applySettings(await r.json());}catch(e){applySettings({brideName:"Bride Name",groomName:"Groom Name",artworkUrl:"/assets/nikah-artwork.jpg",date:"2027-01-01",time:"12:00",showParticles:true,countdown:true});}}
+$("openInvite").addEventListener("click",async()=>{const btn=$("openInvite");btn.disabled=true;btn.textContent="✦ OPENING YOUR INVITATION ✦";$("opening").style.transition="opacity .8s ease, transform .8s ease";$("opening").style.opacity="0";$("opening").style.transform="scale(1.02)";setTimeout(()=>{$("opening").hidden=true;$("mainInvitation").classList.add("show");window.scrollTo({top:0,behavior:"smooth"});},650);if(settings.musicEnabled&&settings.musicUrl){try{await $("weddingMusic").play();musicStarted=true;}catch{}}});
+$("musicToggle").addEventListener("click",async()=>{const audio=$("weddingMusic");if(audio.paused){try{await audio.play();$("musicToggle").textContent="♫";}catch{toast("Tap again to start music.");}}else{audio.pause();$("musicToggle").textContent="♪";}});
+$("rsvpForm").addEventListener("submit",async e=>{e.preventDefault();const status=$("rsvpStatus");status.textContent="Sending…";const data=Object.fromEntries(new FormData(e.currentTarget).entries());data.guestSlug=guestSlug;data.partySize=Number(data.partySize);try{const r=await fetch("/api/rsvp",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)});const body=await r.json();if(!r.ok)throw new Error(body.error||"Could not submit RSVP.");status.textContent=body.message||"RSVP received. Thank you!";e.currentTarget.reset();}catch(err){status.textContent=err.message||"Please try again later."; }});
+loadSettings();setInterval(updateCountdown,1000);
+</script>
+</body></html>
