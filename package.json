@@ -1,0 +1,24 @@
+{
+  "name": "luxury-islamic-nikah-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Luxury Islamic Nikah invitation with admin dashboard, PostgreSQL persistence and optional Cloudinary media storage.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "db:init": "node scripts/init-db.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "rate-limiter-flexible": "^5.0.5"
+  }
+}
